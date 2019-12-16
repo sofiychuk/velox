@@ -1,0 +1,255 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; }
+  body nav {
+    width: 100%;
+    height: 80px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; }
+  body .block_logo {
+    position: relative;
+    width: 300px; }
+  body .block_menu {
+    display: flex; }
+  body #list div {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin-left: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 80px; }
+  body .block_menu button {
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 80px; }
+  body #list {
+    display: flex; }
+  body #list > div > p {
+    margin-top: 30px; }
+  body #list div:hover {
+    background-color: #328EF8;
+    margin-top: 0; }
+  body .block_logo img {
+    position: absolute;
+    top: 10px;
+    left: 300px; }
+  body .block_contact {
+    background-color: #328EF8;
+    width: 350px; }
+  body .block_contact img {
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer; }
+  body .dropbtn {
+    background-color: #328EF8;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; }
+  body .dropdown {
+    overflow: hidden; }
+  body .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EFEFEF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 433px; }
+  body .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; }
+  body .dropdown-content a:hover {
+    background-color: #fff; }
+  body .dropdown:hover .dropdown-content {
+    display: block; }
+  body .dropdown:hover .dropbtn {
+    background-color: #328EF8; }
+  body .header_bg {
+    background: url(../img/header/hd_bg.jpg) no-repeat center top/cover;
+    height: 680px; }
+  body .header_bg_2 {
+    background: url(../img/header/hd_bg_2.png) no-repeat center top/cover;
+    height: 680px; }
+  body .header_bg_3 {
+    background: url(../img/header/hd_bg_3.png) no-repeat center top/cover;
+    height: 680px; }
+  body .header_content h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 170px 320px; }
+  body .header_content p {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100; }
+  body .header_content a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff; }
+  body .button {
+    width: 180px;
+    height: 40px;
+    background: #328EF8;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    left: 320px;
+    top: 404px; }
+  body .header_content {
+    overflow: hidden;
+    position: relative; }
+  body .button:hover {
+    width: 200px;
+    height: 50px;
+    opacity: 0.8; }
+  body .slider .slick_dots {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 47%;
+    top: 650px;
+    display: flex; }
+  body .slider .slick_dots li {
+    display: block;
+    margin: 30px 10px; }
+  body .slider .slick_dots button {
+    outline: none;
+    background-color: transparent;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 1px solid #b1abab;
+    border-radius: 50%;
+    cursor: pointer; }
+  body .slider .slick_dots button:hover, body .slider .slick_dots button:active, body .slider .slick_dots button:focus {
+    background-color: #328EF8; }
+  body .slider .slick_dots .slick_active button {
+    background-color: #328EF8; }
+  body #categories {
+    text-align: center;
+    height: 800px; }
+  body #categories h2 {
+    font-size: 23px;
+    color: #328EF8;
+    margin: 0 auto; }
+  body #line {
+    margin-bottom: 5px; }
+  body .first {
+    width: 552px;
+    height: 485px;
+    background: url(../img/header/ram.png) no-repeat center top/cover;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px; }
+  body .blue_line {
+    background: url(../img/header/blu_line.png) no-repeat center top/cover;
+    height: 80px;
+    margin-top: 80px;
+    text-align: right; }
+  body .blue_line p {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 25px;
+    padding-right: 25px; }
+  body #card_bicycle {
+    position: absolute;
+    left: -40px;
+    top: 90px;
+    width: 652px;
+    height: 450px; }
+  body .first:hover,
+  body .second:hover {
+    opacity: 0.6;
+    cursor: pointer; }
+    body .first:hover #card_bicycle,
+    body .second:hover #card_bicycle {
+      width: 700px;
+      height: 500px; }
+    body .first:hover #card_wear,
+    body .second:hover #card_wear {
+      height: 230px;
+      width: 180px; }
+    body .first:hover .blue_line,
+    body .second:hover .blue_line {
+      margin-top: 0;
+      height: 130px; }
+    body .first:hover .blue_line p,
+    body .second:hover .blue_line p {
+      font-size: 44px; }
+    body .first:hover .blue_line_2,
+    body .second:hover .blue_line_2 {
+      margin-top: 0;
+      height: 100px; }
+    body .first:hover .blue_line_2 p,
+    body .second:hover .blue_line_2 p {
+      font-size: 24px; }
+  body .blue_line_2 {
+    background-color: #328EF8;
+    width: 275px;
+    height: 72px;
+    margin-top: 80px; }
+  body .second {
+    background: url(../img/section/ramsmall.png) no-repeat center top/cover;
+    width: 275px;
+    height: 218px;
+    overflow: hidden;
+    margin-top: 30px;
+    position: relative;
+    margin-left: 10px; }
+  body .blue_line_2 p {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 25px;
+    padding-right: 15px;
+    text-align: right; }
+  body #card_wear {
+    position: absolute;
+    top: 5px;
+    left: 10px; }
+  body .container_1 {
+    display: flex; }
+  body .container_2 {
+    display: flex;
+    margin-top: 20px; }
+  body .categories_cards {
+    display: flex;
+    margin: 80px auto;
+    width: 1029px; }
+  body .containers {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; }
+  body #brands {
+    height: 222px;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-top: 25px; }
+  body #brands > h2 {
+    font-size: 23px;
+    color: #328EF8;
+    margin: 0 auto; }
+  body .elements {
+    height: 79px;
+    margin-left: 35px; }
+  body #spec {
+    height: 50px; }
+  body .multiple_items {
+    width: 1060px;
+    margin: 60px auto; }
+  body .multiple_arrows {
+    color: #363333; }
